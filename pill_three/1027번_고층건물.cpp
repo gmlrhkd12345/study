@@ -18,7 +18,7 @@ int check(int now) {
 		maxgradient = (arr[now + 1] - arr[now]) / 1;
 		right++;
 	}
-	//¿ÞÂÊ
+	//Â¿ÃžÃ‚ÃŠ
 	for (int i = now - 2;i >= 0;i--) {
 		double x1 = i, x2 = now;
 		double y1 = arr[i], y2 = arr[now];
@@ -28,7 +28,7 @@ int check(int now) {
 			left++;
 		}
 	}
-	//¿À¸¥ÂÊ
+	//Â¿Ã€Â¸Â¥Ã‚ÃŠ
 	for (int i = now + 2;i < n;i++) {
 		double x1 = i, x2 = now;
 		double y1 = arr[i], y2 = arr[now];
